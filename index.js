@@ -9,6 +9,6 @@ app.post("/user",(req,res)=>{
     // console.log(req)
    const username=new user(req.body)
    username.save()
-   res.send(username)
+   res.send(username) 
 })
 app.listen(port,()=>{console.log("you are on port :- "+port)})
