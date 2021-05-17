@@ -50,5 +50,5 @@ const userdata=new mongoose.Schema({
     }
 
 })
-const user= new mongoose.model('Users-api',userdata)
-module.exports=userdata
+const user= new mongoose.model('userapi',userdata)
+module.exports=user
